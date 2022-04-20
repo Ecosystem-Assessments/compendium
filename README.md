@@ -3,6 +3,11 @@
 # compendium
 
 <!-- badges: start -->
+
+[![License: GPL (&gt;=
+2)](https://img.shields.io/badge/License-GPL%20%28%3E%3D%202%29-blue.svg)](https://choosealicense.com/licenses/gpl-2.0/)
+[![LifeCycle](https://img.shields.io/badge/lifecycle-experimental-orange)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![Dependencies](https://img.shields.io/badge/dependencies-2/70-green?style=flat)](#)
 <!-- badges: end -->
 
 Research Compendium of the project **{{ PLEASE ADD A FEW WORDS }}**
@@ -44,7 +49,25 @@ This repository is structured as follow:
 
 ### Usage
 
-Clone the repository, open R/RStudio and run:
+-   Clone this repository
+-   Open a terminal
+-   Build the Docker image with:
+
+<!-- -->
+
+    docker build -t "compendium" .
+
+-   Start a container based on this image:
+
+<!-- -->
+
+    docker run --rm -p 127.0.0.1:8787:8787 -e DISABLE_AUTH=true compendium
+
+-   On a web browser enter this URL: `127.0.0.1:8787`. A new RStudio
+    Server instance will be available.
+-   To run the analysis:
+
+<!-- -->
 
     source("make.R")
 
