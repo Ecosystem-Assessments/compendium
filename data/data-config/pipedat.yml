@@ -1,0 +1,27 @@
+parameters: 
+  bbox:
+    xmin:
+    ymin:
+    xmax:
+    ymax:
+  timespan:
+    - year 1
+      year 2
+      ...
+      year n
+  grid: 
+    resolution:
+    crs:
+    bbox:
+      xmin:
+      ymin:
+      xmax:
+      ymax:
+    bottom_left:
+      x:
+      y:      
+data_pipelines:
+  - pipeline_id 1
+    pipeline_id 2
+    ...
+    pipeline_id n
