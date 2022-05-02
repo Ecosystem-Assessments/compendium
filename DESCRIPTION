@@ -33,7 +33,7 @@ Imports:
     pipedat,
     raster,
     sp,
-    stringr
+    stringr,
     units,
     whisker,
     yaml
