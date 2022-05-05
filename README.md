@@ -1,3 +1,4 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # compendium
@@ -25,17 +26,15 @@ This repository is structured as follow:
 -   [`data/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/data):
     contains all raw data required to perform analyses
 
--   [`analyses/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/analyses/):
-    contains R scripts to run each step of the workflow
-
--   [`outputs/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/outputs):
+-   [`output/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/outputs):
     contains all the results created during the workflow
 
 -   [`figures/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/figures):
     contains all the figures created during the workflow
 
 -   [`R/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/R):
-    contains R functions developed especially for this project
+    contains R functions developed especially for this project and R
+    scripts to run each step of the workflow
 
 -   [`man/`](https://github.com/Ecosystem-Assessments/compendium/tree/master/man):
     contains help files of R functions
@@ -53,23 +52,23 @@ This repository is structured as follow:
 -   Open a terminal
 -   Build the Docker image with:
 
-<!-- -->
-
-    docker build -t "compendium" .
+``` sh
+docker build -t "compendium" .
+```
 
 -   Start a container based on this image:
 
-<!-- -->
-
-    docker run --rm -p 127.0.0.1:8787:8787 -e DISABLE_AUTH=true compendium
+``` sh
+docker run --rm -p 127.0.0.1:8787:8787 -e DISABLE_AUTH=true compendium
+```
 
 -   On a web browser enter this URL: `127.0.0.1:8787`. A new RStudio
     Server instance will be available.
 -   To run the analysis:
 
-<!-- -->
-
-    source("make.R")
+``` r
+source("make.R")
+```
 
 ### Notes
 
