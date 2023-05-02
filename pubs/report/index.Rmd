@@ -1,0 +1,69 @@
+---
+title: "Project title"
+subtitle: "Exploratory report"
+author: "David Beauchesne"
+date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
+documentclass: scrbook
+# bibliography: [pipedat.bib, nceadfo.bib] # Add .bib files
+# biblio-style: apalike
+csl: frontiers.csl
+link-citations: yes
+colorlinks: yes
+lot: yes
+lof: yes
+fontsize: 12pt
+monofont: "Courier"
+monofontoptions: "Scale=0.7"
+site: bookdown::bookdown_site
+always_allow_html: true
+---
+
+<!-- description: "TO WRITE"
+url: 'https\://bookdown.org/yihui/bookdown/'
+github-repo: rstudio/bookdown
+cover-image: images/cover.jpg -->
+
+<!--
+setwd("./report")
+suppressWarnings(bookdown::render_book("index.Rmd", "bookdown::gitbook"))
+setwd("../")
+-->
+
+<!--
+<img src="https://img.shields.io/badge/Zone-Fluvial-brightgreen">
+-->
+
+
+```{r setup, include = FALSE, purl = FALSE}
+knitr::opts_chunk$set(
+  comment = "#>",
+  collapse = TRUE,
+  warning = FALSE,
+  echo = FALSE,
+  message = FALSE,
+  dev = "png",
+  dpi = 108,
+  fig.width = 8,
+  fig.height = 6,
+  fig.align = 'center',
+  width = 120#,
+  # table.attr = 'class="flat-table"'
+)
+
+
+
+# Load project package
+# library(compendium)
+```
+
+# {-}
+
+David Beauchesne, Ph.D. <br/>
+Postdoctoral researcher<br/>
+david.beauchesne@hotmail.com<br/>
+
+
+#### Citation {-}
+
+Beauchesne D (YEAR) PROJECT TITLE. url: [...]

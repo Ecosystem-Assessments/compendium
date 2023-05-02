@@ -10,7 +10,7 @@ NULL
 # ------------------------------------------------------------------------------
 # Gracieuseté de Kevin Cazelles: https://github.com/KevCaz
 # my simple(r) version of use template
-use_template <- function(template, save_as = stdout(), pkg = "ceanav", ...) {
+use_template <- function(template, save_as = stdout(), pkg = "compendium", ...) {
   template <- readLines(
     path_package(package = pkg, template)
   )
@@ -43,3 +43,9 @@ clean <- function() {
   rm(list = objs, pos = ".GlobalEnv")
 }
 
+
+# ------------------------------------------------------------------------------
+#' Check if folder exists and create if not
+chk_create <- function(path) {
+  if (!file.exists(path)) dir.create(path, recursive = TRUE)
+}

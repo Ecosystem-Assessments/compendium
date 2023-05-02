@@ -1,0 +1,29 @@
+# Background
+
+
+# Scope and objectives of the assessment
+
+## Objectives {#objectives}
+
+The overarching objective of this project was to [...]
+
+The specific objectives of this project were to: 
+
+1. 
+2. 
+3. 
+
+
+## Spatial and temporal scope {#scope}
+
+<br/>
+
+<!-- 
+{r aoi, fig.cap = "Limits of the study area for the cumulative effects assessment of global changes on the ecological communities of the Scotian Shelf Bioregion.", out.width = '90%', fig.link = "https://github.com/Ecosystem-Assessments/nceadfo/blob/main/figures/atlas/aoi/aoi.png?raw=true"}
+knitr::include_graphics("https://github.com/Ecosystem-Assessments/nceadfo/blob/main/figures/atlas/aoi/aoi.png?raw=true")
+-->
+
+<br/>
+
+
+
