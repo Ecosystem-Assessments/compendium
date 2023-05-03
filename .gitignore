@@ -20,3 +20,20 @@
 README.html
 inst/doc
 
+# Data ----
+*.geojson
+*.tif
+*.csv
+*.pdf
+*.xlsx
+*.zip
+raw/
+*.RData
+*.gpkg
+*.rds
+
+# Specific files & folders
+figures/*
+!figures/atlas/
+!figures/webinar/
+frontpage.svg
