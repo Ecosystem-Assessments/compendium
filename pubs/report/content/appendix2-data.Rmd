@@ -1,3 +1,0 @@
-# Appendix 2 {.unnumbered #appendix2}
-
-Description of data, copy output of `pipedat::pipereport`

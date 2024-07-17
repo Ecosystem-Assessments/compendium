@@ -1,0 +1,22 @@
+pipedat:
+  parameters:
+    make_grid: TRUE
+    crs: 4326
+    cellsize: 0.1
+    aoi: data/aoi/aoi.gpkg
+    grd: data/grid/grid.tif
+    integrate: TRUE
+    ingrid: TRUE
+    keep_raw: TRUE
+    bbox:
+      xmin: -76
+      xmax: -33
+      ymin: 35
+      ymax: 65
+  # ==========================================================================
+  # UID of pipelines to eexecute
+  pipelines:
+    - "" 
+  # ==========================================================================
+  # Additional parameters parsed to species pipelines 
+  # params:

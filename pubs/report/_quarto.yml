@@ -1,0 +1,28 @@
+project:
+  type: book
+  output-dir: ../../docs
+
+book:
+  title: title
+  subtitle: subtitle
+  author: 
+    - name: David Beauchesne
+      degrees: PhD
+    - name: Kevin Cazelles
+      degrees: PhD
+    - name: Steve Vissault
+      degrees: MSc
+  chapters:
+    - index.qmd
+
+bibliography: [references.bib, ../../project-data/pipedat/pipedat.bib]
+csl: frontiers.csl
+
+format:
+  html:
+    theme: cosmo
+
+execute:
+  echo: false
+  warning: false
+  error: false
