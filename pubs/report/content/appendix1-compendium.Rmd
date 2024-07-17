@@ -1,3 +1,0 @@
-# Appendix 1 {.unnumbered #appendix1} 
-
-Description of the research compendium, copy README.Rmd
